@@ -1,0 +1,14 @@
+sdlhaa (1.1.0) unstable; urgency=low
+
+  * Added new HAA_SetVideoMode call; removed dangerous automatic
+    fullscreen sync.
+  * Fixed issue with loss of focus in fullscreen apps.
+  * Fixed Z Rotation.
+
+ -- Javier S. Pedro <maemo@javispedro.com>  Mon, 29 Mar 2010 21:14:33 +0200
+
+sdlhaa (1.0.0) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Javier S. Pedro <maemo@javispedro.com>  Tue,  2 Feb 2010 00:03:22 +0100

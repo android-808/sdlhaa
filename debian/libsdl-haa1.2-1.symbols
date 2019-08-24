@@ -1,0 +1,10 @@
+libSDL_haa-1.2.so.0 libsdl-haa1.2-1 #MINVER#
+* Build-Depends-Package: libsdl-haa1.2-dev
+ HAA_Commit@Base 1.0.0
+ HAA_CreateActor@Base 1.0.0
+ HAA_FilterEvent@Base 1.0.0
+ HAA_Flip@Base 1.0.0
+ HAA_FreeActor@Base 1.0.0
+ HAA_Init@Base 1.0.0
+ HAA_Quit@Base 1.0.0
+ HAA_SetPortraitMode@Base 1.1.0

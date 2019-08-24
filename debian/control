@@ -1,0 +1,23 @@
+Source: sdlhaa
+Priority: extra
+Maintainer: Javier S. Pedro <maemo@javispedro.com>
+Build-Depends: debhelper (>= 5), libxext-dev, libsdl1.2-dev
+Standards-Version: 3.7.2
+Section: libs
+
+Package: libsdl-haa1.2-1
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Hildon Animation Actor library for Simple DirectMedia Layer 1.2
+ This is a simple library to use Hildon 2.2 animation actors from your SDL
+ applications.
+
+Package: libsdl-haa1.2-dev
+Section: libdevel
+Architecture: any
+Depends: libsdl-haa1.2-1 (= ${Source-Version})
+Description: development files for Hildon Animation Actor library for SDL 1.2
+ This is a simple library to use Hildon 2.2 animation actors from your SDL
+ applications.
+
